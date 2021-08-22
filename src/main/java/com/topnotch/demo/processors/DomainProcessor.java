@@ -1,9 +1,11 @@
-package com.topnotch.demo;
+package com.topnotch.demo.processors;
 
 import java.util.function.Function;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import com.topnotch.demo.adapters.Domain;
 
 import reactor.core.publisher.Flux;
 

@@ -1,4 +1,4 @@
-package com.topnotch.demo;
+package com.topnotch.demo.adapters;
 
 import java.io.Serializable;
 import java.util.List;

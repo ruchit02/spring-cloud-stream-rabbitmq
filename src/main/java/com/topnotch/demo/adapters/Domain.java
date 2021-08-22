@@ -1,4 +1,4 @@
-package com.topnotch.demo;
+package com.topnotch.demo.adapters;
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -6,14 +6,23 @@ import java.util.Objects;
 public class Domain implements Serializable {
 
 	private String domain;
+
 	private String create_date;
+
 	private String update_date;
+
 	private String country;
+
 	private boolean isDead;
+
 	private String A;
+
 	private String NS;
+
 	private String CNAME;
+
 	private String MX;
+
 	private String TXT;
 
 	public Domain() {

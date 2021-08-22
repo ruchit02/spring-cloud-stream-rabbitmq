@@ -1,10 +1,13 @@
-package com.topnotch.demo;
+package com.topnotch.demo.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.stream.function.StreamBridge;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
+
+import com.topnotch.demo.adapters.Domain;
+import com.topnotch.demo.adapters.DomainList;
 
 import reactor.core.publisher.Flux;
 
